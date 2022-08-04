@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(255, 188, 208);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  height: 700px;
+  width: 500px;
+  background: rgb(75, 75, 75);
+}
+
+img {
+  width: 500px;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgb(216, 102, 102);
+  border: none;
+  cursor: pointer;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
