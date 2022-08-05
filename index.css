@@ -4,35 +4,62 @@
 
 body {
   margin: 0;
-  background: rgb(255, 188, 208);
-  color: #fff;
-  font-family: 'Inter', sans-serif;
+  background: rgb(128, 189, 178);
+  color: white;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .container {
   margin: 0 auto;
+  margin-top: 3em;
   text-align: center;
-  height: 700px;
-  width: 500px;
-  background: rgb(75, 75, 75);
+  height: 800px;
+  width: 600px;
+  background: #1b1b1b;
+  border: 5px dotted #f5c154ff;
 }
 
 img {
-  width: 500px;
-}
-
-button {
-  width: 200px;
-  height: 100px;
-  border-radius: 10px;
-  background-color: rgb(216, 102, 102);
-  border: none;
-  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 75%;
 }
 
 /* Typography */
 
 h1 {
+  margin: 0.1em 0 0 0;
+  padding-top: 15px;
   font-size: 4rem;
   font-weight: 700;
+}
+
+h2 {
+  padding: 0;
+  margin: 0 1em;
+  height: 115px;
+}
+
+.accent {
+  color: #e55042ff;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 75px;
+  border-radius: 5px;
+  background-color: #e55042ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 2px 2px rgb(19, 19, 19);
+}
+
+button:hover {
+  box-shadow: 4px 4px rgb(19, 19, 19);
+  background-color: rgb(212, 77, 65);
 }
